@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #2a4d69; /* Dark Blue */
+  --background-color: #f4f4f4; /* Light Warm Background */
+  --text-color: #2a2a2a; /* Neutral Dark Text */
+  --link-hover-color: #3c6e71; /* Muted Blue-Green */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+a:hover {
+  color: var(--link-hover-color);
+}
+
+button {
+  background-color: var(--link-hover-color);
+  color: #ffffff;
+  width: 25%;
+  height: 30px;
+  margin: 10px;
+  border: 1px solid var(--primary-color); 
+  border-radius: 3px;
+} 
+button:hover {
+  background-color: #2d9499;
+  border-color: #2d9499;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
