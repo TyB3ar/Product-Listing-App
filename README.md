@@ -8,7 +8,7 @@ This is my submission for the Coding Temple 'Advanced JS & Intro to React Module
 5. [Future Enhancements](#future-enhancements)
 
 ## Overview
-The **E-Commerce Product Listing App** is a React-based application designed to showcase a list of products in an e-commerce setting. It allows users to browse, filter, and view product details in an intuitive and user-friendly interface. This application reinforces the use of React Components, props, and state to manage and display data. 
+The **E-Commerce Product Listing App** is a React-based application designed to showcase a list of products in an e-commerce setting. It allows users to browse, filter, and view product details in an intuitive and user-friendly interface. This application reinforces the use of React Components, props, and state to manage and display data. All of the main code can be found in the 'src' folder. 
 
 ## Features
 - **Product Listing**: Displays a list of products with essential details like name, price, and image.
